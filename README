@@ -1,0 +1,28 @@
+![x](https://raw.githubusercontent.com/marionleborgne/cloudbrain/master/cloudbrain/ui/images/cb-logo-low-res.png)
+
+#Overview
+
+Cloudbrain is a platform for real-time sensor data analysis and visualization.
+<br>
+One type of sensor data that works well with cloudbrain is EEG data. [EEG](http://en.wikipedia.org/wiki/Electroencephalography) is the recording of electrical activity along the scalp. In other words, brainwaves.
+<br>
+<br>
+Cloudbrain enables you to:
+- **Stream sensor data** into a central database.
+- **Analyze sensor data** to find spatial and temporal patterns.
+- **Visualize sensor data** and patterns in real-time.
+
+# Getting started with cloudbrain
+
+## Option 1: Quick-start!
+This makes use of the demo version of cloudbrain running at [`demo.cloudbrain.rocks`](http://demo.cloudbrain.rocks).
+* Publishers send data to cloudbrain.
+* Subscribers receive data from cloudbrain.
+
+### Install liblo
+
+On Linux, install the liblo package.
+
+If you're on OSX, make sure you have [homebrew](http://brew.sh/) and the OSX command line utilities installed
+Then install liblo through brew
+* `brew install liblo`
